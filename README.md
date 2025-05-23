@@ -19,9 +19,11 @@ Supports both **Normal** and **Visual** modes.
 
 ### With [lazy.nvim](https://github.com/folke/lazy.nvim)
 
+```
 {
   "Geertsky/smart-toggle.nvim",
   config = function()
     require("smart_toggle").setup()
   end,
 }
+```
